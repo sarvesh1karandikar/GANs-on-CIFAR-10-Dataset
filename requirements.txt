@@ -1,0 +1,16 @@
+# Core ML framework (TF1.x APIs: tf.Session, tf.placeholder, tf.get_variable)
+tensorflow==1.15
+
+# Numerical computing
+numpy>=1.16,<2.0
+
+# Plotting and visualization
+matplotlib>=3.0
+
+# Jupyter environment
+jupyter>=1.0
+ipython>=7.0
+
+# Dataset download (used by get_datasets.sh — wget is a system tool, not pip)
+# scipy is used in lib/datasets.py for imread (legacy)
+scipy>=1.2
